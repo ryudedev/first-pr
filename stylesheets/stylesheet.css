@@ -453,3 +453,42 @@ Add
     border: 1px;
     padding: 10px;
   }
+
+  .link-card {
+    margin-top: 15px;
+    border: 1px solid #e1e4e8;
+    border-radius: 8px;
+    overflow: hidden;
+    transition: box-shadow 0.3s ease;
+    cursor: pointer;
+}
+
+.link-card:hover {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+}
+
+.link-card-content {
+    display: flex;
+    align-items: center;
+    padding: 12px;
+    background-color: #fff;
+}
+
+.link-card-icon {
+    width: 40px;
+    height: 40px;
+    margin-right: 12px;
+}
+
+.link-card-text h3 {
+    font-size: 16px;
+    font-weight: bold;
+    color: #0366d6;
+    margin: 0;
+}
+
+.link-card-text p {
+    font-size: 14px;
+    color: #586069;
+    margin: 0;
+}
